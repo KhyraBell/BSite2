@@ -1,3 +1,17 @@
+:root {
+  --darkest-purple: #26000C;
+  --darker-purple: #420C1D;
+  --dark-purple: #5D1D31;
+  --purple: #703347;
+  --light-purple: #975268;
+
+  --darkest-green: #001E10;
+  --darker-green: #093320;
+  --dark-green: #174832;
+  --green: #285842;
+  --light-green: #40765D;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
