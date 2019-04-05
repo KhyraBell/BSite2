@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Oswald');
+
 :root {
-  --darkest-purple: #26000C;
-  --darker-purple: #420C1D;
-  --dark-purple: #5D1D31;
+  --darkest-purple: #26000c;
+  --darker-purple: #420c1d;
+  --dark-purple: #5d1d31;
   --purple: #703347;
   --light-purple: #975268;
 
-  --darkest-green: #001E10;
+  --darkest-green: #001e10;
   --darker-green: #093320;
   --dark-green: #174832;
   --green: #285842;
-  --light-green: #40765D;
+  --light-green: #40765d;
 }
 
 html {
@@ -235,9 +237,7 @@ img {
   margin-bottom: 1.45rem;
 }
 h1 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
+  margin: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
@@ -267,6 +267,7 @@ h2 {
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
+  text-align: center;
 }
 h3 {
   margin-left: 0;
@@ -335,6 +336,10 @@ h6 {
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
   line-height: 1.1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
 }
 hgroup {
   margin-left: 0;
@@ -633,4 +638,17 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+/* Applied styles */
+
+.navbar-link {
+  color: white;
+  padding-right: 1rem;
+  text-decoration: none;
+}
+
+.navbar-link.nav {
+  text-align: center;
+
 }
