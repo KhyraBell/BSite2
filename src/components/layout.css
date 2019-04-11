@@ -7,6 +7,8 @@
   --purple: #703347;
   --light-purple: #975268;
 
+  --off-white: #F7F0F2;
+
   --darkest-green: #001e10;
   --darker-green: #093320;
   --dark-green: #174832;
@@ -641,6 +643,10 @@ pre tt:after {
 }
 
 /* Applied styles */
+
+main {
+  background-color: red;
+}
 
 .navbar-link {
   color: white;
