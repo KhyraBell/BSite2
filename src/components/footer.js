@@ -5,9 +5,9 @@ import styled from "styled-components"
 const Footer = () => (
   <footer>
     <FooterLinks>
-      <Link>Link 1</Link>
-      <Link>Link 1</Link>
-      <Link>Link 1</Link>
+      <Link className="navbar-link">Link 1</Link>
+      <Link className="navbar-link">Link 2</Link>
+      <Link className="navbar-link">Link 3</Link>
     </FooterLinks>
   </footer>
 )

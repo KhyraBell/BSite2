@@ -651,13 +651,20 @@ footer {
   background-color: #420c1d;
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 4rem;
   width: 100vw;
 }
 
 main {
   background-color: #F7F0F2;
-  min-height: 80vh;
+  min-height: 74vh;
 }
+
+.center {
+  text-align: center;
+}
+
 
 .navbar-link {
   color: white;
@@ -665,6 +672,7 @@ main {
   text-decoration: none;
 }
 
-.center {
-  text-align: center;
+.paragraph {
+  width: 80vw;
 }
+

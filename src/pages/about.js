@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 const About = () => {
   return (
     <Layout>
-    <div>
+    <div className="paragraph">
       <h2>About Me</h2>
       <p>The best way I’ve ever known how to connect with people was through
        stories. I grew up in rural Illinois, in a place where people either

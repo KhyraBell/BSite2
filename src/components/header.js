@@ -35,7 +35,7 @@ const HeaderHeader = styled.header`
 
 const HeaderBackground = styled.div`
   margin: 0 auto;
-  padding: 1rem 1rem;
+  padding: .75rem 1rem .35rem 1.5rem;
 
   display: flex;
   flex-direction: column;
