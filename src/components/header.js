@@ -10,10 +10,10 @@ const Header = ({ siteTitle }) => (
         <Link to="/" className="navbar-link">{siteTitle}</Link>
       </HeaderHeading>
       <Navbar>
-        <Link to="/about" className="navbar-link nav">About</Link>
-        <Link to="/art" className="navbar-link nav">Art</Link>
-        <Link to="/store" className="navbar-link nav">Store</Link>
-        <Link to="/contact" className="navbar-link nav">Contact</Link>
+        <Link to="/about" className="center navbar-link">About</Link>
+        <Link to="/art" className="center navbar-link">Art</Link>
+        <Link to="/store" className="center navbar-link">Store</Link>
+        <Link to="/contact" className="center navbar-link">Contact</Link>
       </Navbar>
 
     </HeaderBackground>
@@ -59,7 +59,7 @@ const Navbar = styled.nav`
 
 const HeaderHeading = styled.h1`
   text-align: center;
-  
+
 
   @media (min-width: 800px) {
     text-align: left;

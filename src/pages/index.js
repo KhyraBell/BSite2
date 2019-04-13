@@ -14,7 +14,7 @@ const IndexPage = () => (
       <LandingImage src={icon} alt="Anime picture of Brandon" />
 
 
-      <p>I connect with people best through stories. My art is about reconciliation, and I hope you see that in my work and enjoy it!</p>
+      <p className="center">I connect with people best through stories. My art is about reconciliation, and I hope you see that in my work and enjoy it!</p>
       </LandingMain>
   </Layout>
 )
