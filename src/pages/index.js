@@ -25,9 +25,16 @@ const LandingMain = styled.main`
 `;
 
 const LandingImage = styled.img`
+  margin: 0 auto 1rem auto;
+  height: 150px;
+  width: 150px;
+
+  @media only screen and (min-width: 800px) {
   height: 300px;
   width: 300px;
-  margin: 0 auto 1rem auto;
+}
+
+
 `;
 
 export default IndexPage

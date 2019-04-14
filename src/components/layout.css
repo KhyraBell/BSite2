@@ -17,6 +17,7 @@
 }
 
 html {
+  font-size: 62.5%;
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -28,6 +29,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #F7F0F2;
+  overflow-x: none;
 }
 article,
 aside,
@@ -639,11 +641,7 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-  }
-}
+
 
 /* Applied styles */
 
@@ -658,13 +656,12 @@ footer {
 
 main {
   background-color: #F7F0F2;
-  min-height: 74vh;
+  min-height: 73vh;
 }
 
 .center {
   text-align: center;
 }
-
 
 .navbar-link {
   color: white;
@@ -673,6 +670,12 @@ main {
 }
 
 .paragraph {
+
+  margin: 0 1.5rem;
+  /*
+  padding: 0 6rem;
+  margin: 0 7rem;
+  */
   width: 80vw;
 }
 
