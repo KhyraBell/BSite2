@@ -27,11 +27,11 @@ html {
 }
 body {
   margin: 0;
-  height: 100vh;
-  width: 100vw;
+  max-height: 100vh;
+  max-width: 100vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: none;
+  overflow-x: hidden;
 }
 article,
 aside,
@@ -625,14 +625,8 @@ pre tt:after {
 
 /* Applied styles */
 
-footer {
-  background-color: #420c1d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100vw;
-  min-height: 4.2rem;
-  width: 100vw;
+footer p {
+  text-align: center;
 }
 
 main {
@@ -653,10 +647,6 @@ main {
 .paragraph {
 
   margin: 0 1.5rem;
-  /*
-  padding: 0 6rem;
-  margin: 0 7rem;
-  */
   width: 80vw;
 }
 
@@ -673,6 +663,11 @@ main {
 
   p {
     font-size: 1rem;
+  }
+
+  .paragraph {
+    margin: 0 7rem;
+    padding: 0 11rem;
   }
 
 }

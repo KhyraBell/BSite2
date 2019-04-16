@@ -32,6 +32,8 @@ const HeaderHeader = styled.header`
   background-color: #5d1d31;
   margin-bottom: 1.45rem;
   max-width: 100vw;
+  padding-left: 1rem;
+  padding-top: 1rem;
 `
 
 const HeaderBackground = styled.div`
@@ -51,6 +53,7 @@ const HeaderBackground = styled.div`
 const Navbar = styled.nav`
   display: flex;
   flex-direction: column;
+  padding-bottom: 1rem;
 
   @media (min-width: 800px) {
     flex-direction: row;
