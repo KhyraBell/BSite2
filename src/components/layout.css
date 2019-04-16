@@ -22,6 +22,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   background: linear-gradient(135deg, #FEFEFE, #F7F0F2 60%, #975268);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 body {
   margin: 0;
@@ -403,15 +405,15 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 1.1rem;
+  margin-right: 1.1rem;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 figure {
   margin-left: 0;
@@ -591,30 +593,7 @@ abbr[title] {
   cursor: help;
   text-decoration: none;
 }
-thead {
-  text-align: left;
-}
-td,
-th {
-  text-align: left;
-  border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
-  font-feature-settings: "tnum";
-  -moz-font-feature-settings: "tnum";
-  -ms-font-feature-settings: "tnum";
-  -webkit-font-feature-settings: "tnum";
-  padding-left: 0.96667rem;
-  padding-right: 0.96667rem;
-  padding-top: 0.725rem;
-  padding-bottom: calc(0.725rem - 1px);
-}
-th:first-child,
-td:first-child {
-  padding-left: 0;
-}
-th:last-child,
-td:last-child {
-  padding-right: 0;
-}
+
 tt,
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
@@ -651,12 +630,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 4rem;
+  max-width: 100vw;
+  min-height: 4.2rem;
   width: 100vw;
 }
 
 main {
   min-height: 73vh;
+  max-width: 100vw;
 }
 
 .center {

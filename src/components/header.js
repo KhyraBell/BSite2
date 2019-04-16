@@ -31,11 +31,12 @@ Header.defaultProps = {
 const HeaderHeader = styled.header`
   background-color: #5d1d31;
   margin-bottom: 1.45rem;
+  max-width: 100vw;
 `
 
 const HeaderBackground = styled.div`
   margin: 0 auto;
-  padding: .75rem 1rem .35rem 1.5rem;
+
 
   display: flex;
   flex-direction: column;

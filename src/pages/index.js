@@ -22,9 +22,11 @@ const IndexPage = () => (
 const LandingMain = styled.main`
   display: flex;
   flex-direction: column;
+  padding-top: 0.75rem;
 `;
 
 const LandingImage = styled.img`
+  border-radius: 50%;
   margin: 0 auto 1rem auto;
   height: 150px;
   width: 150px;
@@ -32,9 +34,6 @@ const LandingImage = styled.img`
   @media only screen and (min-width: 800px) {
   height: 300px;
   width: 300px;
-}
-
-
-`;
+}`;
 
 export default IndexPage
