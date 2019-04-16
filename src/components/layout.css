@@ -21,6 +21,7 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  background: linear-gradient(135deg, #FEFEFE, #F7F0F2 60%, #975268);
 }
 body {
   margin: 0;
@@ -28,7 +29,6 @@ body {
   width: 100vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #F7F0F2;
   overflow-x: none;
 }
 article,
@@ -656,7 +656,6 @@ footer {
 }
 
 main {
-  background-color: #F7F0F2;
   min-height: 73vh;
 }
 
@@ -678,6 +677,10 @@ main {
   margin: 0 7rem;
   */
   width: 80vw;
+}
+
+.white {
+  color: #F7F0F2;
 }
 
 /* Media queries */

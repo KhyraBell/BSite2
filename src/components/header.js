@@ -29,7 +29,7 @@ Header.defaultProps = {
 }
 
 const HeaderHeader = styled.header`
-  background-color: #420c1d;
+  background-color: #5d1d31;
   margin-bottom: 1.45rem;
 `
 
