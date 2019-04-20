@@ -294,6 +294,7 @@ h3 {
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
+  text-align: center;
 }
 h4 {
   margin-left: 0;
@@ -624,6 +625,17 @@ pre tt:after {
 
 
 /* Applied styles */
+.art-block {
+  flex-direction: column;
+
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 footer p {
   text-align: center;
@@ -638,6 +650,14 @@ main {
   text-align: center;
 }
 
+.book {
+  max-height: 400px;
+}
+
+.image {
+  max-height: 300px;
+}
+
 .navbar-link {
   color: white;
   padding-right: 1rem;
@@ -645,7 +665,6 @@ main {
 }
 
 .paragraph {
-
   margin: 0 1.5rem;
   width: 80vw;
 }
