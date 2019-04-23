@@ -29,6 +29,7 @@ const Art = () => {
           <iframe
             src="https://player.vimeo.com/video/210433188"
             frameBorder="0"
+            title="rub"
           />
           <p>The short sequel to the upcoming feature, Intimates.</p>
         </div>
