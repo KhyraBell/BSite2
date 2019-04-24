@@ -38,18 +38,23 @@ const ContactLinks = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
+
+  @media only screen and (min-width: 800px) {
+  flex-direction: row;
+}
 `
 
 const ProfileLink = styled.a`
+  border-radius: 50%;
   color: #26000c;
   margin-bottom: 1rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  margin-right: 1rem;
+  padding:  1rem 1.5rem;
   transform: scale(1);
   transition: all 0.3s ease-out;
 
   :hover {
-    color: #5d1d31;
+    background-color: #703347;
   }
 `
 
