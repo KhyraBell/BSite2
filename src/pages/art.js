@@ -10,9 +10,11 @@ class Art extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      payment: '5.00',
+      value: "5.00",
     }
   }
+
+  handleChange = event => this.setState({ value: event.target.value });
 
   render() {
     const client = {
@@ -55,10 +57,22 @@ class Art extends React.Component {
             />
             <p>
               My urban fantasy about a girl detective. Pay what you want via
-              Paypal to recieve a PDF!
+              Paypal to receive a PDF!
             </p>
-            <input type="text" value={this.state.payment} />
-            <PaypalExpressBtn client={client} currency={"USD"} total="{parseInt(this.state.payment)}" />
+
+            <label>
+              <input
+                type="text"
+                value={this.state.value}
+                onChange={this.handleChange}
+              />
+            </label>
+
+            <PaypalExpressBtn
+              client={client}
+              currency={"USD"}
+              total="{parseInt(this.state.payment)}"
+            />
           </div>
           <div className="flex">
             <h3>Heroes All</h3>
