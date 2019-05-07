@@ -8,6 +8,7 @@
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.3.27",
     "gatsby-image": "^2.0.35",
+    "gatsby-paypal-button": "^1.0.5",
     "gatsby-plugin-manifest": "^2.0.25",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.11",
@@ -17,9 +18,11 @@
     "gatsby-transformer-sharp": "^2.1.17",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
+    "react-async-script-loader": "^0.3.0",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
     "react-icons": "^3.6.1",
+    "react-paypal-express-checkout": "^1.0.5",
     "styled-components": "^4.2.0"
   },
   "devDependencies": {

@@ -54,7 +54,7 @@ const ProfileLink = styled.a`
   transition: all 0.3s ease-out;
 
   :hover {
-    background-color: #703347;
+    background-color: #975268;
   }
 `
 
