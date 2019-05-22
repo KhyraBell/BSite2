@@ -1,10 +1,11 @@
 import React from "react"
-import PaypalExpressBtn from "react-paypal-express-checkout"
+
 
 import Layout from "../components/layout"
 import chloe from "../images/chloe.png"
 import heroes from "../images/heroes.png"
 import poppies from "../images/poppies.png"
+import Checkout from "../components/checkout"
 
 class Art extends React.Component {
   constructor(props) {
@@ -14,13 +15,11 @@ class Art extends React.Component {
     }
   }
 
-  handleChange = event => this.setState({ value: event.target.value });
+  handleChange = event => this.setState({ value: event.target.value })
 
   render() {
-    const client = {
-      sandbox: "process.env.PAYPAL_CLIENT_ID_SANDBOX",
-      production: "process.env.PAYPAL_CLIENT_ID_PRODUCTION",
-    }
+
+
 
     return (
       <Layout>
@@ -56,9 +55,10 @@ class Art extends React.Component {
               alt="Cover Image to Chloe Chamonix novel"
             />
             <p>
-              My urban fantasy about a girl detective. Pay what you want via
-              Paypal to receive a PDF!
+              My urban fantasy about a girl detective. Pay via Stripe to recieve
+              your PDF today!
             </p>
+            <Checkout />
 
             <label>
               <input
@@ -68,11 +68,7 @@ class Art extends React.Component {
               />
             </label>
 
-            <PaypalExpressBtn
-              client={client}
-              currency={"USD"}
-              total="{parseInt(this.state.payment)}"
-            />
+
           </div>
           <div className="flex">
             <h3>Heroes All</h3>
