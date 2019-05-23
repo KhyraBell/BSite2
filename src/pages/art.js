@@ -73,6 +73,16 @@ class Art extends React.Component {
           <div className="flex">
             <h3>Heroes All</h3>
             <img src={heroes} className="image" alt="Heroes All RPG cover" />
+            <p>Play a day in the life of your own comic book! Heroes All casts
+            you as the writer and main character of your own comic. Come up with your powers,
+            create your antagonist, and explore your shared world. Anything from superheroes to
+            space opera to working at a convenience store, play your characters' everyday
+            lives while playing each other's antagonists! Available for purchase now on
+            <a href="https://www.drivethrurpg.com/product/276049/Heroes-All" target="__blank"> Drive Thru RPG</a>
+
+
+
+            </p>
           </div>
         </div>
       </Layout>
