@@ -24,7 +24,7 @@ class Art extends React.Component {
             />
             <p>
               A choice-driven RPG about the American War in Afghanistan.
-              Download and unzip a playable sample here.
+              Download and unzip a playable sample <a href="../assets/BoPexport.zip" download>here.</a>
             </p>
           </div>
           <div className="flex">
