@@ -12,7 +12,6 @@ const Header = ({ siteTitle }) => (
       <Navbar>
         <Link to="/about" className="center navbar-link">About</Link>
         <Link to="/art" className="center navbar-link">Art</Link>
-        <Link to="/store" className="center navbar-link">Store</Link>
         <Link to="/contact" className="center navbar-link">Contact</Link>
       </Navbar>
 
