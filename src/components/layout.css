@@ -47,6 +47,7 @@ section,
 summary {
   display: block;
 }
+
 audio,
 canvas,
 progress,
@@ -690,6 +691,10 @@ main {
 
   input {
     margin-bottom: 19px;
+  }
+
+  main {
+    margin-bottom: 1.9rem;
   }
 
   p {
