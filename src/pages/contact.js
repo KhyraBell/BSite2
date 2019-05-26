@@ -13,6 +13,7 @@ const Contact = () => {
     <Helmet>
           <meta charSet="utf-8" />
           <meta lang="en" />
+          <meta name="description" content="Page containing contact methods for me for email, Twitter, and Facebook." />
           <title>Brandon L Sichling - Contact</title>
           <link rel="canonical" href="" />
         </Helmet>

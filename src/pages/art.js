@@ -15,6 +15,7 @@ class Art extends React.Component {
       <Helmet>
           <meta charSet="utf-8" />
           <meta lang="en" />
+          <meta name="description" content="Page detailing my works, including an urban fantasy novel and superhero RPG" />
           <title>Brandon L Sichling - Art</title>
           <link rel="canonical" href="" />
         </Helmet>
