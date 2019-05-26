@@ -1,12 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Brandon L Sichling`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Personal website for author and game designer Brandon L. Sichling.`,
+    author: `Michael S. Caveney`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-stripe`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

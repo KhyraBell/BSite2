@@ -20,7 +20,7 @@ class Art extends React.Component {
             <img
               src={poppies}
               className="image"
-              alt="Cover Image from The Beauty of Poppies"
+              alt="Cover of The Beauty of Poppies"
             />
             <p>
               A choice-driven RPG about the American War in Afghanistan.
@@ -41,7 +41,7 @@ class Art extends React.Component {
             <img
               src={chloe}
               className="book"
-              alt="Cover Image to Chloe Chamonix novel"
+              alt="Cover of Chloe Chamonix novel"
             />
             <p>
               My urban fantasy about a girl detective. Pay what you want via PayPal to receive

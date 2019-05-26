@@ -5,7 +5,7 @@
   --darker-purple: #420c1d;
   --dark-purple: #5d1d31;
   --purple: #703347;
-  --light-purple: #975268;
+  --light-purple: #884b5e;
 
   --off-white: #F7F0F2;
 
@@ -667,6 +667,10 @@ main {
   color: white;
   padding-right: 1rem;
   text-decoration: none;
+}
+
+.navbar-link:hover {
+  color: #c096a3;
 }
 
 .paragraph {
