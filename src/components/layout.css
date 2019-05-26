@@ -16,6 +16,10 @@
   --light-green: #40765d;
 }
 
+@font-face {
+  font-display: auto;
+}
+
 html {
   font-size: 62.5%;
   font-family: sans-serif;
