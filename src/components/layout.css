@@ -666,6 +666,8 @@ main {
 .navbar-link {
   color: white;
   padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
   text-decoration: none;
 }
 

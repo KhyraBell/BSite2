@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import icon from "../images/icon.png"
+import icon from "../images/icon.webp"
 
 const IndexPage = () => (
   <Layout>
