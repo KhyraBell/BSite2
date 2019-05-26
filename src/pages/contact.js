@@ -10,6 +10,12 @@ import Layout from "../components/layout"
 const Contact = () => {
   return (
     <Layout>
+    <Helmet>
+          <meta charSet="utf-8" />
+          <meta lang="en" />
+          <title>Brandon L Sichling - Contact</title>
+          <link rel="canonical" href="" />
+        </Helmet>
       <h2>Reach Out</h2>
 
       <ContactLinks>

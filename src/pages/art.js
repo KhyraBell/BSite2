@@ -12,6 +12,12 @@ class Art extends React.Component {
   render() {
     return (
       <Layout>
+      <Helmet>
+          <meta charSet="utf-8" />
+          <meta lang="en" />
+          <title>Brandon L Sichling - Art</title>
+          <link rel="canonical" href="" />
+        </Helmet>
         <div className="paragraph flex art-block">
           <h2>My Art</h2>
 

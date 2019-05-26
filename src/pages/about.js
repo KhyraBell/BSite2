@@ -5,6 +5,12 @@ import Layout from "../components/layout"
 const About = () => {
   return (
     <Layout>
+    <Helmet>
+          <meta charSet="utf-8" />
+          <meta lang="en" />
+          <title>Brandon L Sichling - About Me</title>
+          <link rel="canonical" href="" />
+        </Helmet>
     <div className="paragraph">
       <h2>About Me</h2>
       <p>The best way I’ve ever known how to connect with people was through
