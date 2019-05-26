@@ -1,9 +1,9 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import chloe from "../images/chloe.png"
-import heroes from "../images/heroes.png"
-import poppies from "../images/poppies.png"
+import chloe from "../images/chloe.webp"
+import heroes from "../images/heroes.webp"
+import poppies from "../images/poppies.webp"
 import PayPal from "../components/Paypal"
 
 class Art extends React.Component {
