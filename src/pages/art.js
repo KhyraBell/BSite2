@@ -7,7 +7,7 @@ import poppies from "../images/poppies.png"
 import PayPal from "../components/Paypal"
 
 class Art extends React.Component {
-  handleChange = event => this.setState({ value: event.target.value })
+
 
   render() {
     return (
@@ -69,6 +69,7 @@ class Art extends React.Component {
               <a
                 href="https://www.drivethrurpg.com/product/276049/Heroes-All"
                 target="__blank"
+                rel="noopener"
               >
                 {" "}
                 Drive Thru RPG

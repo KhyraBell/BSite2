@@ -20,18 +20,19 @@ const Contact = () => {
       <h2>Reach Out</h2>
 
       <ContactLinks>
-        <ProfileLink href="https://twitter.com/BrandonSichling" target="_blank">
+        <ProfileLink href="https://twitter.com/BrandonSichling" target="_blank" rel="noopener">
           <FaTwitter size={56} />
         </ProfileLink>
 
         <ProfileLink
           href="https://www.facebook.com/SaberFishStudio/"
           target="_blank"
+          rel="noopener"
         >
           <FaFacebook size={56} />
         </ProfileLink>
 
-        <ProfileLink href="mailto:brandonlichlings@gmail.com" target="_blank">
+        <ProfileLink href="mailto:brandonlichlings@gmail.com" target="_blank" rel="noopener">
           <FaEnvelope size={56} />
         </ProfileLink>
       </ContactLinks>
