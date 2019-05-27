@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from 'react-helmet';
 
 import Layout from "../components/layout"
 import chloe from "../images/chloe.webp"
@@ -7,15 +8,16 @@ import poppies from "../images/poppies.webp"
 import PayPal from "../components/Paypal"
 
 class Art extends React.Component {
-
-
   render() {
     return (
       <Layout>
-      <Helmet>
+        <Helmet>
           <meta charSet="utf-8" />
           <meta lang="en" />
-          <meta name="description" content="Page detailing my works, including an urban fantasy novel and superhero RPG" />
+          <meta
+            name="description"
+            content="Page detailing my works, including an urban fantasy novel and superhero RPG"
+          />
           <title>Brandon L Sichling - Art</title>
           <link rel="canonical" href="" />
         </Helmet>
@@ -31,7 +33,10 @@ class Art extends React.Component {
             />
             <p>
               A choice-driven RPG about the American War in Afghanistan.
-              Download and unzip a playable sample <a href="../assets/BoPexport.zip" download>here.</a>
+              Download and unzip a playable sample{" "}
+              <a href="../assets/BoPexport.zip" download>
+                here.
+              </a>
             </p>
           </div>
           <div className="flex">
@@ -51,8 +56,8 @@ class Art extends React.Component {
               alt="Cover of Chloe Chamonix novel"
             />
             <p>
-              My urban fantasy about a girl detective. Pay what you want via PayPal to receive
-              your PDF today!
+              My urban fantasy about a girl detective. Pay what you want via
+              PayPal to receive your PDF today!
             </p>
             <PayPal />
           </div>
@@ -65,11 +70,11 @@ class Art extends React.Component {
               with your powers, create your antagonist, and explore your shared
               world. Anything from superheroes to space opera to working at a
               convenience store, play your characters' everyday lives while
-              playing each other's antagonists! Available for purchase now on
+              playing each other's antagonists. Available for purchase now on
               <a
                 href="https://www.drivethrurpg.com/product/276049/Heroes-All"
                 target="__blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 {" "}
                 Drive Thru RPG

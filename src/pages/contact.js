@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { Helmet } from 'react-helmet';
 
 import { FaTwitter } from "react-icons/fa"
 import { FaFacebook } from "react-icons/fa"
@@ -20,19 +21,19 @@ const Contact = () => {
       <h2>Reach Out</h2>
 
       <ContactLinks>
-        <ProfileLink href="https://twitter.com/BrandonSichling" target="_blank" rel="noopener">
+        <ProfileLink href="https://twitter.com/BrandonSichling" target="_blank" rel="noopener noreferrer">
           <FaTwitter size={56} />
         </ProfileLink>
 
         <ProfileLink
           href="https://www.facebook.com/SaberFishStudio/"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           <FaFacebook size={56} />
         </ProfileLink>
 
-        <ProfileLink href="mailto:brandonlichlings@gmail.com" target="_blank" rel="noopener">
+        <ProfileLink href="mailto:brandonlichlings@gmail.com" target="_blank" rel="noopener noreferrer">
           <FaEnvelope size={56} />
         </ProfileLink>
       </ContactLinks>
