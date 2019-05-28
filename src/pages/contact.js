@@ -22,22 +22,22 @@ const Contact = () => {
 
       <ContactLinks>
         <ProfileLink href="https://twitter.com/BrandonSichling" target="_blank" rel="noopener noreferrer"
-        alt="Twitter logo icon">
-          <FaTwitter size={56} />
+        >
+          <FaTwitter size={56} alt="Twitter logo icon"/>
         </ProfileLink>
 
         <ProfileLink
           href="https://www.facebook.com/SaberFishStudio/"
           target="_blank"
           rel="noopener noreferrer"
-          alt="Facebook logo icon"
+
         >
-          <FaFacebook size={56} />
+          <FaFacebook size={56} alt="Facebook logo icon"/>
         </ProfileLink>
 
         <ProfileLink href="mailto:brandonlichlings@gmail.com" target="_blank" rel="noopener noreferrer"
         alt="Email icon">
-          <FaEnvelope size={56} />
+          <FaEnvelope size={56} alt="Email icon"/>
         </ProfileLink>
       </ContactLinks>
     </Layout>
