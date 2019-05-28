@@ -13,7 +13,7 @@ const Contact = () => {
     <Layout>
     <Helmet>
           <meta charSet="utf-8" />
-          <meta lang="en" />
+          <html lang="en" />
           <meta name="description" content="Page containing contact methods for me for email, Twitter, and Facebook." />
           <title>Brandon L Sichling - Contact</title>
           <link rel="canonical" href="" />
@@ -21,7 +21,8 @@ const Contact = () => {
       <h2>Reach Out</h2>
 
       <ContactLinks>
-        <ProfileLink href="https://twitter.com/BrandonSichling" target="_blank" rel="noopener noreferrer">
+        <ProfileLink href="https://twitter.com/BrandonSichling" target="_blank" rel="noopener noreferrer"
+        alt="Twitter logo icon">
           <FaTwitter size={56} />
         </ProfileLink>
 
@@ -29,11 +30,13 @@ const Contact = () => {
           href="https://www.facebook.com/SaberFishStudio/"
           target="_blank"
           rel="noopener noreferrer"
+          alt="Facebook logo icon"
         >
           <FaFacebook size={56} />
         </ProfileLink>
 
-        <ProfileLink href="mailto:brandonlichlings@gmail.com" target="_blank" rel="noopener noreferrer">
+        <ProfileLink href="mailto:brandonlichlings@gmail.com" target="_blank" rel="noopener noreferrer"
+        alt="Email icon">
           <FaEnvelope size={56} />
         </ProfileLink>
       </ContactLinks>

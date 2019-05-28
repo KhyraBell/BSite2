@@ -8,7 +8,7 @@ const About = () => {
     <Layout>
     <Helmet>
           <meta charSet="utf-8" />
-          <meta lang="en" />
+          <html lang="en" />
           <meta name="description" content="About me page for personal website detailing my background and approach to art." />
           <title>Brandon L Sichling - About Me</title>
           <link rel="canonical" href="" />

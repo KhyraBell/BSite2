@@ -13,7 +13,7 @@ class Art extends React.Component {
       <Layout>
         <Helmet>
           <meta charSet="utf-8" />
-          <meta lang="en" />
+          <html lang="en" />
           <meta
             name="description"
             content="Page detailing my works, including an urban fantasy novel and superhero RPG"
