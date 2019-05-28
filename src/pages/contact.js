@@ -24,6 +24,7 @@ const Contact = () => {
         <ProfileLink href="https://twitter.com/BrandonSichling" target="_blank" rel="noopener noreferrer"
         >
           <FaTwitter size={56} alt="Twitter logo icon"/>
+          Twitter
         </ProfileLink>
 
         <ProfileLink
@@ -33,11 +34,13 @@ const Contact = () => {
 
         >
           <FaFacebook size={56} alt="Facebook logo icon"/>
+          Facebook
         </ProfileLink>
 
         <ProfileLink href="mailto:brandonlichlings@gmail.com" target="_blank" rel="noopener noreferrer"
         alt="Email icon">
           <FaEnvelope size={56} alt="Email icon"/>
+          Email
         </ProfileLink>
       </ContactLinks>
     </Layout>
