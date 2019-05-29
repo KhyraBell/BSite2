@@ -71,14 +71,17 @@ const ContactLinks = styled.div`
 `
 
 const ProfileLink = styled.a`
-background-clip: border-box;
-
+  border-radius: 50%;
   color: #26000c;
   margin: 1rem;
   padding: 1rem 1.5rem;
   text-decoration: none;
   transform: scale(1);
   transition: all 0.3s ease-out;
+
+  :hover {
+    background-color: #975268
+  }
 `
 
 export default Contact
