@@ -11,36 +11,45 @@ import Layout from "../components/layout"
 const Contact = () => {
   return (
     <Layout>
-    <Helmet>
-          <meta charSet="utf-8" />
-          <html lang="en" />
-          <meta name="description" content="Page containing contact methods for me for email, Twitter, and Facebook." />
-          <title>Brandon L Sichling - Contact</title>
-          <link rel="canonical" href="" />
-        </Helmet>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <html lang="en" />
+        <meta
+          name="description"
+          content="Page containing contact methods for me for email, Twitter, and Facebook."
+        />
+        <title>Brandon L Sichling - Contact</title>
+        <link rel="canonical" href="" />
+      </Helmet>
       <h2>Reach Out</h2>
 
       <ContactLinks>
-        <ProfileLink href="https://twitter.com/BrandonSichling" target="_blank" rel="noopener noreferrer"
+        <ProfileLink
+          href="https://twitter.com/BrandonSichling"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          <FaTwitter size={56} alt="Twitter logo icon"/>
-          Twitter
+          <FaTwitter size={56} alt="Twitter logo icon" />
+         
         </ProfileLink>
 
         <ProfileLink
           href="https://www.facebook.com/SaberFishStudio/"
           target="_blank"
           rel="noopener noreferrer"
-
         >
-          <FaFacebook size={56} alt="Facebook logo icon"/>
-          Facebook
+          <FaFacebook size={56} alt="Facebook logo icon" />
+
         </ProfileLink>
 
-        <ProfileLink href="mailto:brandonlichlings@gmail.com" target="_blank" rel="noopener noreferrer"
-        alt="Email icon">
-          <FaEnvelope size={56} alt="Email icon"/>
-          Email
+        <ProfileLink
+          href="mailto:brandonlichlings@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          alt="Email icon"
+        >
+          <FaEnvelope size={56} alt="Email icon" />
+
         </ProfileLink>
       </ContactLinks>
     </Layout>
@@ -60,17 +69,14 @@ const ContactLinks = styled.div`
 `
 
 const ProfileLink = styled.a`
-  border-radius: 50%;
+background-clip: border-box;
+
   color: #26000c;
-  margin-bottom: 1rem;
-  margin-right: 1rem;
-  padding:  1rem 1.5rem;
+  margin: 1rem;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
   transform: scale(1);
   transition: all 0.3s ease-out;
-
-  :hover {
-    background-color: #975268;
-  }
 `
 
 export default Contact

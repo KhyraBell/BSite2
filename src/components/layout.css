@@ -663,6 +663,17 @@ main {
   max-height: 400px;
 }
 
+.contact-text {
+  border-radius: 50%;
+  margin-left: 0;
+  padding: 7px;
+}
+
+ .contact-text:hover {
+   color: white;
+    background-color: #975268;
+  }
+
 .image {
   max-height: 300px;
 }
@@ -709,6 +720,10 @@ main {
 
   p {
     font-size: 1rem;
+  }
+
+  .contact-text {
+    padding-right: 5px;
   }
 
   .paragraph {
