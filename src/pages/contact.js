@@ -28,15 +28,17 @@ const Contact = () => {
           href="https://twitter.com/BrandonSichling"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Twitter"
         >
           <FaTwitter size={56} alt="Twitter logo icon" />
-         
+
         </ProfileLink>
 
         <ProfileLink
           href="https://www.facebook.com/SaberFishStudio/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Facebook"
         >
           <FaFacebook size={56} alt="Facebook logo icon" />
 
@@ -46,7 +48,7 @@ const Contact = () => {
           href="mailto:brandonlichlings@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          alt="Email icon"
+          aria-label="Email"
         >
           <FaEnvelope size={56} alt="Email icon" />
 
