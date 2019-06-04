@@ -10,7 +10,8 @@ module.exports = {
     resolve: `gatsby-plugin-canonical-urls`,
     options: {
       siteUrl: `https://www.brandonlsichling.com`,
-    },
+    }
+  },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
