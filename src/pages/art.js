@@ -56,7 +56,8 @@ class Art extends React.Component {
               alt="Cover of Chloe Chamonix novel"
             />
             <p>
-              My urban fantasy about a girl detective. Pay what you want via
+              My urban fantasy about a girl detective. Buy it on
+              <a href="https://www.amazon.com/dp/B07SH2NSKV?fbclid=IwAR0RfAa4kom5FRPY3EzyIu4Ffw5UbfftzYYIoIz_Z5iyYmKE3AX4x66ii2Y" target="__blank" rel="noopener noreferrer"> Amazon</a>, or pay what you want via
               PayPal to receive your PDF today!
             </p>
             <PayPal />
